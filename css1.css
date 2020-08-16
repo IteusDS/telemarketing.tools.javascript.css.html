@@ -42,7 +42,7 @@ h1 {color: #fff;
     padding-bottom: 0%;
     margin-bottom: 0px;
     border-color: black;
-    margin-top: 2vh;
+    margin-top: 3vh;
 
  
     
@@ -145,9 +145,9 @@ input[type="text"] {
 
 .geral textarea {
     color:#b0acac;
-    max-width: 50vh;
-    min-width: 26vh;
-    min-height: 15vh;
+    max-width: 30vh;
+    min-width: 10vh;
+    min-height: 10vh;
 }
 
 
@@ -157,7 +157,7 @@ body{
     margin-left: 55vh;
     background-color: lightblue;
 }
-    
+} 
   /*  body {
       background-color: lightblue;
       width: 100%;
@@ -172,4 +172,4 @@ body{
   .geral {
       position: absolute;
       justify-content: center;
-  } */
+  } 
