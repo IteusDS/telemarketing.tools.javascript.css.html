@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css1.css" id="theme">
+<script src="script.js"></script>
+
+
+</head>
+<body>
+    <div class="geral">
+    <div class="present1"> <h2>Ferramentas para o Analista de SAC</h2></div>
+   <div class="present"> <p>Calculadora</p></div> <br>
+    <div class="container">
+        <!--Primeira Linha, contém apenas o RESULTADO E A LETRA C, DE CLEAR-->
+        <div class="row-1">
+           
+            <br>
+            <input type="text" id="result" placeholder="Resultado" readonly>
+            <button onclick="clearScreen()" id="clear" >C</button>
+         </div>
+
+        <!--   fim da primeira linha -->         
+
+        <div class="btnrow-1">
+            <button onclick="updScreen(1)">1</button>
+            <button onclick="updScreen(2)">2</button>
+            <button onclick="updScreen(3)">3</button>
+            <button onclick="updScreen('*')">x</button>
+        </div>
+
+      <!--   fim dasegunda linha -->  
+
+        <div class="btnrow-1">
+            <button onclick="updScreen(4)">4</button>
+            <button onclick="updScreen(5)">5</button>
+            <button onclick="updScreen(6)">6</button>
+            <button onclick="updScreen('+')">+</button>
+        </div>
+      <!--   fim da terceira linha -->  
+        <div class="btnrow-1">
+            <button onclick="updScreen(7)">7</button>
+            <button onclick="updScreen(8)">8</button>
+            <button onclick="updScreen(9)">9</button>
+            <button onclick="updScreen('-')">-</button>
+        </div>
+      <!--   fim da QUARTA linha -->  
+        <div class="btnrow-2">
+            <button onclick="updScreen('/')">/</button>
+            <button onclick="updScreen(0)">0</button>
+            <button onclick="updScreen('.')">.</button>
+            <button onclick="result.value = eval(result.value)">=</button>
+        </div>
+      <!--   fim da QUINTA linha --> 
+
+</div>
+
+    <h4 class="present"> Macros</h4>
+    <br>
+<textarea id="text10"  rows="5" cols="30" placeholder="Coloque suas macros aqui =)">
+    
+</textarea>
+
+<!--
+<div class="btnrow-1">
+
+    <button onclick="themeSwitcher()" id="dark-mode">Modo escuro</button>
+</div>-->
+
+<footer class="present1">Criado por Mateus d.S</footer>
+<br>
+</div>
+</body>
+</html>
