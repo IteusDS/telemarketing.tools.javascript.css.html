@@ -37,7 +37,7 @@ h1 {color: #fff;
 .container {
     display: flex;
     width: 100;
-    height: 34vh;
+    height: 38vh;
     flex-direction: column;
     justify-content: center;
     align-items: center;
