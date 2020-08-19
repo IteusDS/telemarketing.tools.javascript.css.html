@@ -1,7 +1,5 @@
 /* LETRA C = CLEAR, NESSE CASO, ELA IRÁ SELECIONAR OS DADOS DO RESULTADO
 E SUBSTITUIR PELO VALOR ENTRE ASPAS */
-
-alert("Olá! Essa ferramenta trata-se de uma aplicação para facilitar o dia a dia do analista de SAC. Por enquanto contém poucas funcionalidades. Logo será acrescentado um despertador e outras funções.Obrigado por usar essa aplicação :)")
 function clearScreen() {
     document.getElementById("result")
     .value ="";
